@@ -35,15 +35,15 @@ function validarCampo() {
         cantity.style.borderColor = "red";
         return false;
     }
-    else if (fechaActividad.value.length == 0 || /^\s+$/.test(fechaActividad)) {
+    else if (fechaActividad.value.length == 0 ) {
         alert('El campo de texto esta vacio!');
         fechaActividad.style.borderColor = "red";
         return false;
-    } else if (description.value.length == 0 || /^\s+$/.test(description)) {
+    } else if (description.value.length == 0 ) {
         alert('El campo de texto esta vacio!');
         description.style.borderColor = "red";
         return false;
-    } else if (cantity.value.length == 0 || /^\s+$/.test(cantity)) {
+    } else if (cantity.value.length == 0 ) {
         alert('El campo de texto esta vacio!');
         cantity.style.borderColor = "red";
         return false;
